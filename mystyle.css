@@ -1,0 +1,11 @@
+.miEstiloParaCard {
+
+    font-size: 12px;
+    color: gray;
+
+}
+
+.priceInCard {
+    border-top: solid;
+    text-align: center;
+}
