@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Montserrat;
+}
+
+/*productos*/
+.productos {
+    background-size: cover;
+    background-position: center;
+}
+
+.productos_tittle {
+    font-size: clamp(2rem, 3vw, 5rem);
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.productos_descripcion {
+    font-size: clamp(1rem, 1.5vw, 3rem);
+    line-height: 1.5;
+}
+
+.ver_mas_btn 
+{
+    width: 12rem;
+}
+
+/* características */
+.caracteristicas {
+    background-color: #ffd85a;
+    text-align: center;
+    line-height: 1.2;
+    font-size: clamp(1rem, 1.3vw, 2rem);
+}
+
+.caracteristicas img {
+    width: 7rem;
+    height: 7rem;
+    color: #3a3a3a;
+}
+
+.caracteristicas p {
+    margin: 0;
+}
+
+/* Clientes */
+.clientes img {
+    width: 100%;
+}
+
+/* beneficios */
+.beneficios img {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.beneficios p {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+.beneficios .fw-bold {
+    font-size: clamp(1.25rem, 2vw, 3rem);
+}
+
+.yellow-rectangle {
+    background-color: #ffd85a;
+    width: 40px;
+}
+
+/* contacto */
+.contacto {
+    background-color: #f1f1f1;
+}
+
+.contacto p {
+    margin: 0;
+}
+
+.img_left_side {
+    width: 40px;
+}
+
+.img_right_side {
+    width: 50px;
+}
+
+.mostaza-rectangle {
+    background-color: #b39d45;
+    width: 5px;
+}
+
+/* medios de pago */
+.medios_pago img
+{
+    max-width: 250px;
+}
+
+/* fondos para los productos */
+.productos_gafasSeguridad {
+    background-image: url(/assets/Imagenes/Home_gafas_seguridad.png);
+}
+
+.productos_operativosOpticos {
+    background-image: url(/assets/Imagenes/Home_operativos_opticos.png);
+}
+
+.productos_lentesOpticos {
+    background-image: url(/assets/Imagenes/Home_lentes_opticos.png);
+}
+
+
+/* hover */
+button:hover .ver_mas_btn {
+    content: url("/assets/Imagenes/home_boton_ver_mas_hover.png");
+}
+
+.nav-link:hover
+{
+    color: #b39d45 !important;
+}
