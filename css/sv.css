@@ -79,10 +79,6 @@ body {
     margin: 0;
 }
 
-.contacto_logo_product_info {
-    font-size: clamp(1rem, 4.8vw, 1.25rem);
-}
-
 .contacto_separador {
     border-bottom: 2px solid #b39d45;
 }
@@ -144,6 +140,19 @@ button:hover .ver_mas_btn {
         background-image: url(/assets/HOME_chico/Home_chico_lentes_opticos.png);
     }
 
+
+    /* contacto */
+
+    .contacto
+    {
+        font-size: clamp(0.5rem, 4.8vw, 1.2rem);
+    }
+
+    .contacto_icons
+    {
+        width: 25px;
+    }
+
 }
 
 /* small */
@@ -158,12 +167,9 @@ button:hover .ver_mas_btn {
         column-gap: 10rem;
     }
 
-    .copyright_text {
-        font-size: 1.2rem;
-    }
-
-    .logo_salud_visual_footer {
-        width: 250px;
+    .column-gap-lg-6rem
+    {
+        column-gap: 6rem;
     }
 
     .caracteristicas .flex-column {
@@ -193,6 +199,27 @@ button:hover .ver_mas_btn {
         width: 90%;
 
     }
+
+    /* contacto */
+
+    .contacto
+    {
+        font-size: 0.8rem;
+    }
+
+    .copyright_text {
+        font-size: 0.7rem;
+    }
+
+    .logo_salud_visual_footer {
+        width: 180px;
+    }
+
+    .contacto_icons
+    {
+        width: 18px;
+    }
+
 }
 
 /* extra large */
