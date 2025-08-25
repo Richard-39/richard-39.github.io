@@ -4,10 +4,20 @@ body {
     font-family: Montserrat;
 }
 
+/* navbar */
+.navbar-nav
+{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
 /*productos*/
 .productos {
     background-size: cover;
     background-position: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 .productos_tittle {
@@ -99,11 +109,19 @@ body {
 
 /* hover */
 button:hover .ver_mas_btn {
-    content: url("/assets/Imagenes/home_boton_ver_mas_hover.png");
+    content: url("/assets/Imagenes/HOME_escritorio/home_boton_ver_mas_hover.png");
 }
 
 .nav-link:hover {
     color: #b39d45 !important;
+}
+
+.whatsapp_chat
+{
+    position:fixed;
+	width:100px;
+	bottom:40px;
+	right:40px;
 }
 
 
@@ -125,15 +143,15 @@ button:hover .ver_mas_btn {
     }
 
     .productos_gafas_seguridad {
-        background-image: url(/assets/HOME_chico/Home_chico_gafas_seguridad.png);
+        background-image: url(/assets/Imagenes/HOME_chico/Home_chico_gafas_seguridad.png);
     }
 
     .productos_operativos_opticos {
-        background-image: url(/assets/HOME_chico/Home_chico_operativos_opticos.png);
+        background-image: url(/assets/Imagenes/HOME_chico/Home_chico_operativos_opticos.png);
     }
 
     .productos_lentes_opticos {
-        background-image: url(/assets/HOME_chico/Home_chico_lentes_opticos.png);
+        background-image: url(/assets/Imagenes/HOME_chico/Home_chico_lentes_opticos.png);
     }
 
 
@@ -176,24 +194,19 @@ button:hover .ver_mas_btn {
     }
 
     .productos_gafas_seguridad {
-        background-image: url(/assets/Imagenes/Home_gafas_seguridad.png);
+        background-image: url(/assets/Imagenes/HOME_escritorio/Home_gafas_seguridad.png);
     }
 
     .productos_operativos_opticos {
-        background-image: url(/assets/Imagenes/Home_operativos_opticos.png);
+        background-image: url(/assets/Imagenes/HOME_escritorio/Home_operativos_opticos.png);
     }
 
     .productos_lentes_opticos {
-        background-image: url(/assets/Imagenes/Home_lentes_opticos.png);
+        background-image: url(/assets/Imagenes/HOME_escritorio/Home_lentes_opticos.png);
     }
 
     .ver_mas_btn {
         width: 12rem;
-    }
-
-    .beneficios {
-        width: 90%;
-
     }
 
     /* contacto */
