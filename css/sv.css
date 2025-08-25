@@ -5,12 +5,10 @@ body {
 }
 
 /* navbar */
-.navbar-nav
-{
+.navbar-nav {
     font-weight: 600;
     font-size: 1.1rem;
 }
-
 
 /*productos*/
 .productos {
@@ -116,12 +114,11 @@ button:hover .ver_mas_btn {
     color: #b39d45 !important;
 }
 
-.whatsapp_chat
-{
-    position:fixed;
-	width:100px;
-	bottom:40px;
-	right:40px;
+.whatsapp_chat {
+    position: fixed;
+    width: 100px;
+    bottom: 40px;
+    right: 40px;
 }
 
 
@@ -157,32 +154,24 @@ button:hover .ver_mas_btn {
 
     /* contacto */
 
-    .contacto
-    {
+    .contacto {
         font-size: clamp(0.5rem, 4.8vw, 1.2rem);
     }
 
-    .contacto_icons
-    {
+    .contacto_icons {
         width: 25px;
     }
 
 }
 
-/* small */
-@media (min-width: 576px) {}
+/* extra large */
+@media (min-width: 1200px) {
 
-/* medium */
-@media (min-width: 768px) {}
-
-/* large */
-@media (min-width: 992px) {
-    .column-gap-lg-10rem {
+    .column-gap-xl-10rem {
         column-gap: 10rem;
     }
 
-    .column-gap-lg-6rem
-    {
+    .column-gap-xl-6rem {
         column-gap: 6rem;
     }
 
@@ -209,10 +198,15 @@ button:hover .ver_mas_btn {
         width: 12rem;
     }
 
+    /* navbar */
+
+    .navbar-nav {
+        font-size:  clamp(0.1rem, 1vw, 1.1rem);
+    }
+
     /* contacto */
 
-    .contacto
-    {
+    .contacto {
         font-size: 0.8rem;
     }
 
@@ -224,15 +218,7 @@ button:hover .ver_mas_btn {
         width: 180px;
     }
 
-    .contacto_icons
-    {
+    .contacto_icons {
         width: 18px;
     }
-
 }
-
-/* extra large */
-@media (min-width: 1200px) {}
-
-/* extra extra large */
-@media (min-width: 1400px) {}
