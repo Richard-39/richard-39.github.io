@@ -1,7 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
-  <defs>
-    <style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Capa_2"
+   data-name="Capa 2"
+   viewBox="0 0 530 530"
+   version="1.1"
+   sodipodi:docname="icono_whatsapp_flotante.svg"
+   width="530"
+   height="530"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5371094"
+     inkscape:cx="333.41804"
+     inkscape:cy="218.91741"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Capa_2" />
+  <defs
+     id="defs2">
+    <style
+       id="style1">
       .cls-1 {
         filter: url(#drop-shadow-1);
       }
@@ -18,19 +50,52 @@
         fill: #ededed;
       }
     </style>
-    <filter id="drop-shadow-1" x="-11" y="-11" width="548" height="548" filterUnits="userSpaceOnUse">
-      <feOffset dx="7" dy="7"/>
-      <feGaussianBlur result="blur" stdDeviation="6"/>
-      <feFlood flood-color="#000" flood-opacity=".35"/>
-      <feComposite in2="blur" operator="in"/>
-      <feComposite in="SourceGraphic"/>
+    <filter
+       id="drop-shadow-1"
+       x="-11"
+       y="-11"
+       width="548"
+       height="548"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dx="7"
+         dy="7"
+         id="feOffset1" />
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="6"
+         id="feGaussianBlur1" />
+      <feFlood
+         flood-color="#000"
+         flood-opacity=".35"
+         id="feFlood1" />
+      <feComposite
+         in2="blur"
+         operator="in"
+         id="feComposite1" />
+      <feComposite
+         in="SourceGraphic"
+         id="feComposite2" />
     </filter>
   </defs>
-  <g id="Layer_1" data-name="Layer 1">
-    <g class="cls-1">
-      <path class="cls-4" d="M0,512l35.31-128C12.36,344.28,0,300.14,0,254.23,0,114.76,114.76,0,255.12,0s256.88,114.76,256.88,254.23-116.52,257.77-256.88,257.77c-44.14,0-86.51-14.12-124.47-35.31L0,512Z"/>
-      <path class="cls-2" d="M137.71,430.79l7.95,4.41c32.66,20.3,70.62,32.66,110.34,32.66,115.64,0,211.86-96.22,211.86-213.63S371.64,44.14,255.12,44.14,44.14,137.71,44.14,254.23c0,40.61,11.48,80.33,32.66,113.88l5.3,7.95-20.3,74.15,75.92-19.42Z"/>
-      <path class="cls-3" d="M187.15,135.95l-16.77-.88c-5.3,0-10.59,1.77-14.12,5.3-7.95,7.06-21.19,20.3-24.72,37.96-6.18,26.48,3.53,58.26,26.48,90.04s67.09,82.98,144.77,105.05c24.72,7.06,44.14,2.65,60.03-7.06,12.36-7.95,20.3-20.3,22.95-33.55l2.65-12.36c.88-3.53-.88-7.95-4.41-9.71l-55.61-25.6c-3.53-1.77-7.95-.88-10.59,2.65l-22.07,28.25c-1.77,1.77-4.41,2.65-7.06,1.77-15.01-5.3-65.32-26.48-92.69-79.45-.88-2.65-.88-5.3.88-7.06l21.19-23.83c1.77-2.65,2.65-6.18,1.77-8.83l-25.6-57.38c-.88-2.65-3.53-5.3-7.06-5.3"/>
+  <g
+     id="Layer_1"
+     data-name="Layer 1">
+    <g
+       class="cls-1"
+       id="g4">
+      <path
+         class="cls-4"
+         d="M 0,512 35.31,384 C 12.36,344.28 0,300.14 0,254.23 0,114.76 114.76,0 255.12,0 395.48,0 512,114.76 512,254.23 512,393.7 395.48,512 255.12,512 210.98,512 168.61,497.88 130.65,476.69 Z"
+         id="path2" />
+      <path
+         class="cls-2"
+         d="m 137.71,430.79 7.95,4.41 c 32.66,20.3 70.62,32.66 110.34,32.66 115.64,0 211.86,-96.22 211.86,-213.63 0,-117.41 -96.22,-210.09 -212.74,-210.09 -116.52,0 -210.98,93.57 -210.98,210.09 0,40.61 11.48,80.33 32.66,113.88 l 5.3,7.95 -20.3,74.15 75.92,-19.42 z"
+         id="path3" />
+      <path
+         class="cls-3"
+         d="m 187.15,135.95 -16.77,-0.88 c -5.3,0 -10.59,1.77 -14.12,5.3 -7.95,7.06 -21.19,20.3 -24.72,37.96 -6.18,26.48 3.53,58.26 26.48,90.04 22.95,31.78 67.09,82.98 144.77,105.05 24.72,7.06 44.14,2.65 60.03,-7.06 12.36,-7.95 20.3,-20.3 22.95,-33.55 l 2.65,-12.36 c 0.88,-3.53 -0.88,-7.95 -4.41,-9.71 l -55.61,-25.6 c -3.53,-1.77 -7.95,-0.88 -10.59,2.65 l -22.07,28.25 c -1.77,1.77 -4.41,2.65 -7.06,1.77 -15.01,-5.3 -65.32,-26.48 -92.69,-79.45 -0.88,-2.65 -0.88,-5.3 0.88,-7.06 l 21.19,-23.83 c 1.77,-2.65 2.65,-6.18 1.77,-8.83 l -25.6,-57.38 c -0.88,-2.65 -3.53,-5.3 -7.06,-5.3"
+         id="path4" />
     </g>
   </g>
 </svg>

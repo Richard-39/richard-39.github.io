@@ -14,8 +14,8 @@ body {
 .productos {
     background-size: cover;
     background-position: center;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 
 .productos_tittle {
@@ -116,7 +116,6 @@ button:hover .ver_mas_btn {
 
 .whatsapp_chat {
     position: fixed;
-    width: 100px;
     bottom: 40px;
     right: 40px;
 }
@@ -201,7 +200,12 @@ button:hover .ver_mas_btn {
     /* navbar */
 
     .navbar-nav {
-        font-size:  clamp(0.1rem, 1vw, 1.1rem);
+        font-size: clamp(0.1rem, 1vw, 1.1rem);
+    }
+
+    .productos {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
     }
 
     /* contacto */
