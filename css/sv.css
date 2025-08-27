@@ -4,83 +4,25 @@ body {
     font-family: Montserrat;
 }
 
+.ver_mas_btn {
+    width: 120px;
+}
+
 /* navbar */
 .navbar-nav {
     font-weight: 600;
     font-size: 1.1rem;
 }
 
-/*productos*/
-.productos {
-    background-size: cover;
-    background-position: center;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-}
-
-.productos_tittle {
-    font-size: clamp(2rem, 3vw, 5rem);
-    font-weight: bold;
-    line-height: 1.1;
-}
-
-.productos_descripcion {
-    font-size: clamp(1rem, 1.2vw, 3rem);
-    line-height: 1.5;
-}
-
-.ver_mas_btn {
-    width: 120px;
-}
-
-/* características */
-.caracteristicas {
-    background-color: #ffd85a;
-    text-align: center;
-    line-height: 1.2;
-    font-size: clamp(1rem, 1.2vw, 2rem);
-}
-
-.caracteristicas img {
-    width: 5rem;
-    height: 5rem;
-    color: #3a3a3a;
-}
-
-.caracteristicas p {
-    margin: 0;
-}
-
-
-
-/* Clientes */
-.clientes img {
-    width: 100%;
-}
-
-/* beneficios */
-.beneficios img {
-    width: 100%;
-    max-height: 550px;
-    object-fit: cover;
-}
-
-.beneficios p {
-    font-size: clamp(1rem, 1vw, 2rem);
-}
-
-.beneficios .fw-bold {
-    font-size: clamp(1.25rem, 1.5vw, 3rem);
-}
-
-.yellow-rectangle {
-    background-color: #ffd85a;
-    width: 40px;
-}
 
 /* contacto */
 .contacto {
     background-color: #3a3a3a;
+    font-size: clamp(0.5rem, 4.8vw, 1.2rem);
+}
+
+.contacto_icons {
+    width: 25px;
 }
 
 .contacto p {
@@ -100,19 +42,15 @@ body {
     width: 5px;
 }
 
-/* medios de pago */
-.medios_pago img {
-    max-width: 250px;
+.copyright_text {
+    font-size: 0.75rem;
 }
 
-/* hover */
-button:hover .ver_mas_btn {
-    content: url("/assets/Imagenes/HOME_escritorio/home_boton_ver_mas_hover.png");
+.logo_salud_visual_footer {
+    width: 150px;
 }
 
-.nav-link:hover {
-    color: #b39d45 !important;
-}
+/* elementos flotantes */
 
 .whatsapp_chat {
     position: fixed;
@@ -120,48 +58,22 @@ button:hover .ver_mas_btn {
     right: 40px;
 }
 
+/* hover */
+button:hover .ver_mas_btn {
+    content: url("/assets/Imagenes/HOME_escritorio/home_boton_ver_mas_hover.png");
+}
+
+button:hover .ver_pdf_btn {
+    content: url("/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_boton_ver_PDF_hover.png");
+}
+
+.nav-link:hover {
+    color: #b39d45 !important;
+}
+
+
 
 /* media queries */
-
-/* extra small */
-@media (min-width: 0px) {
-
-    .clientes {
-        width: 100%;
-    }
-
-    .copyright_text {
-        font-size: 0.75rem;
-    }
-
-    .logo_salud_visual_footer {
-        width: 150px;
-    }
-
-    .productos_gafas_seguridad {
-        background-image: url(/assets/Imagenes/HOME_chico/Home_chico_gafas_seguridad.png);
-    }
-
-    .productos_operativos_opticos {
-        background-image: url(/assets/Imagenes/HOME_chico/Home_chico_operativos_opticos.png);
-    }
-
-    .productos_lentes_opticos {
-        background-image: url(/assets/Imagenes/HOME_chico/Home_chico_lentes_opticos.png);
-    }
-
-
-    /* contacto */
-
-    .contacto {
-        font-size: clamp(0.5rem, 4.8vw, 1.2rem);
-    }
-
-    .contacto_icons {
-        width: 25px;
-    }
-
-}
 
 /* extra large */
 @media (min-width: 1200px) {
@@ -174,41 +86,11 @@ button:hover .ver_mas_btn {
         column-gap: 6rem;
     }
 
-    .caracteristicas .flex-column {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        column-gap: 8rem;
-    }
-
-    .productos_gafas_seguridad {
-        background-image: url(/assets/Imagenes/HOME_escritorio/Home_gafas_seguridad.png);
-    }
-
-    .productos_operativos_opticos {
-        background-image: url(/assets/Imagenes/HOME_escritorio/Home_operativos_opticos.png);
-    }
-
-    .productos_lentes_opticos {
-        background-image: url(/assets/Imagenes/HOME_escritorio/Home_lentes_opticos.png);
-    }
-
-    .ver_mas_btn {
-        width: 12rem;
-    }
-
     /* navbar */
-
     .navbar-nav {
         font-size: clamp(0.1rem, 1vw, 1.1rem);
     }
-
-    .productos {
-        padding-top: 3vh;
-        padding-bottom: 3vh;
-    }
-
-    /* contacto */
+        /* contacto */
 
     .contacto {
         font-size: 0.8rem;

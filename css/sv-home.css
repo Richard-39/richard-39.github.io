@@ -1,0 +1,116 @@
+/*productos*/
+.productos {
+    background-size: cover;
+    background-position: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.productos_tittle {
+    font-size: clamp(2rem, 3vw, 5rem);
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.productos_descripcion {
+    font-size: clamp(1rem, 1.2vw, 3rem);
+    line-height: 1.5;
+}
+
+.productos_gafas_seguridad {
+    background-image: url(/assets/Imagenes/HOME_chico/Home_chico_gafas_seguridad.png);
+}
+
+.productos_operativos_opticos {
+    background-image: url(/assets/Imagenes/HOME_chico/Home_chico_operativos_opticos.png);
+}
+
+.productos_lentes_opticos {
+    background-image: url(/assets/Imagenes/HOME_chico/Home_chico_lentes_opticos.png);
+}
+
+/* características */
+.caracteristicas {
+    background-color: #ffd85a;
+    text-align: center;
+    line-height: 1.2;
+    font-size: clamp(1rem, 1.2vw, 2rem);
+}
+
+.caracteristicas img {
+    width: 5rem;
+    height: 5rem;
+    color: #3a3a3a;
+}
+
+.caracteristicas p {
+    margin: 0;
+}
+
+/* Clientes */
+
+.clientes {
+    width: 100%;
+}
+
+.clientes img {
+    width: 100%;
+}
+
+/* beneficios */
+.beneficios img {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.beneficios p {
+    font-size: clamp(1rem, 1vw, 2rem);
+}
+
+.beneficios .fw-bold {
+    font-size: clamp(1.25rem, 1.5vw, 3rem);
+}
+
+.yellow-rectangle {
+    background-color: #ffd85a;
+    width: 40px;
+}
+
+
+@media (min-width: 1200px) {
+
+    /* caracteristicas */
+
+    .caracteristicas .flex-column {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        column-gap: 8rem;
+    }
+
+    /* productos */
+
+    .productos_gafas_seguridad {
+        background-image: url(/assets/Imagenes/HOME_escritorio/Home_gafas_seguridad.png);
+    }
+
+    .productos_operativos_opticos {
+        background-image: url(/assets/Imagenes/HOME_escritorio/Home_operativos_opticos.png);
+    }
+
+    .productos_lentes_opticos {
+        background-image: url(/assets/Imagenes/HOME_escritorio/Home_lentes_opticos.png);
+    }
+
+    .ver_mas_btn {
+        width: 12rem;
+    }
+
+    .productos {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+
+}

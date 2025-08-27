@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/sv.css">
+    <link rel="stylesheet" href="/css/sv-gafas_seguridad.css">
+    <title>Salud Visual</title>
+    <link rel="icon" type="image/x-icon" href="/assets/Logo_Salud_Visual_color.svg">
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-xl p-3 p-xl-5 sticky-xl-top bg-white">
+        <div class="container-fluid p-0 ps-3 ps-xl-5">
+            <a class="navbar-brand" href="/index.html">
+                <img style="width: 200px;" src="/assets/Logo_Salud_Visual_color.svg" alt="salud visual logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 mb-2 mb-xl-0 ms-xl-5 d-xl-flex justify-content-xl-between">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-uppercase" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Gafas de seguridad
+                        </a>
+                        <ul class="dropdown-menu" style="border: none;">
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/gafas_seguridad.html#laboratorios_y_cristales"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Laboratorios y cristales</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/gafas_seguridad.html#recomendaciones"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Recomendaciones de uso por color</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/gafas_seguridad.html#marcas"><span style="color: #b39d45;">&#62</span>
+                                    Marcas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            OPERATIVOS ÓPTICOS
+                        </a>
+                        <ul class="dropdown-menu" style="border: none;">
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/operativos_opticos.html#profesionales"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Profesionales médico y óptico</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/operativos_opticos.html#equipamiento"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Equipamiento médico oftalmológico</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/operativos_opticos.html#beneficios"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Beneficios</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/operativos_opticos.html#laboratorios"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Laboratorios y cristales (Rodenstock - Megalux)</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/operativos_opticos.html#nuestros_clientes"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Nuestros clientes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark text-uppercase" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            lentes Ópticos
+                        </a>
+                        <ul class="dropdown-menu" style="border: none;">
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/lentes_opticos.html#lentes_contacto"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Lentes de contacto y líquido</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/lentes_opticos.html#lentes_sol"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Lentes de sol</a></li>
+                            <li><a class="dropdown-item text-dark text-uppercase"
+                                    href="/pages/lentes_opticos.html#armazones"><span
+                                        style="color: #b39d45;">&#62</span>
+                                    Armazones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/pages/contactanos.html">CONTÁCTANOS</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/salud_visual_optica_cc/" target="_blank"
+                            rel="noopener noreferrer"><img style="width: 50px;" class="me-2"
+                                src="/assets/iconos/icono_IG.svg" alt="instagram"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100064001472399" target="_blank"
+                            rel="noopener noreferrer"><img style="width: 50px;"
+                                src="/assets/iconos/icono_Face_color.svg" alt="facebook"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner gafas seguridad -->
+    <section class="container-fluid px-5 text-white text-end banner banner_gafas_seguridad">
+        <div class="banner_text_container">
+            <div class="banner_text_container">
+                <div class="banner_text_sub_container">
+                    <p class="banner_tittle mb-3 mt-2 text-uppercase">Gafas de seguridad ópticas</p>
+                    <p class="banner_descripcion mb-0 mb-xl-5">Una óptima visión del espacio de trabajo de sus
+                        colaboradores
+                        mejora la producción de su empresa y evita considerablemente los accidentes laborales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laboratorios -->
+    <section id="laboratorios_y_cristales" class="laboratorios p-5">
+        <div class="d-flex gap-3 gap-xl-5 px-3 align-items-center justify-content-center">
+            <img class="lab_icon" src="/assets/iconos/icono_laboratorio.svg" alt="laboratorio icon">
+            <div class="lab_text_container">
+                <p class="m-0 lab_tittle">LABORATORIO DE CRISTALES ÓPTICOS</p>
+                <p class="d-none d-xl-block lh-sm lab_description">Trabajamos con los mejores y más modernos
+                    laboratorios de cristales, como <span class="fw-bold">Rodenstock y Megalux.</span> Todos ellos con
+                    <span class="fw-bold">certificación de seguridad.</span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row my-4 laboratorios_logos mx-lg-auto">
+            <img class="col-4 p-0" src="/assets/Logos_laboratorios/Logo_Rodenstock.png"
+                alt="rodenstock laboratorio logo">
+            <img class="col-4 p-0" src="/assets/Logos_laboratorios/Logo_Megalux.png" alt="megalux laboratorio logo">
+            <img class="col-4 p-0" src="/assets/Logos_laboratorios/Logo_Optiland.png" alt="optiland laboratorio logo">
+        </div>
+
+        <p class="text-center mb-4 lh-sm d-xl-none">Trabajamos con los mejores y más modernos laboratorios de cristales,
+            como
+            <span class="fw-bold">Rodenstock y Megalux.</span> Todos ellos con <span class="fw-bold">certificación de
+                seguridad.</span>
+        </p>
+
+        <div>
+            <div class="d-xl-flex flex-xl-row gap-xl-5">
+                <div class="detalle rounded-3 mb-3 detalle_container">
+                    <p>Todo tipo de cristales para gafas de seguridad ópticas:</p>
+                    <ul>
+                        <li><span class="fw-bold">Cristales neutros</span> (sin aumento) o</li>
+                        <li><span class="fw-bold">Cristales a medida</span> (que necesitan receta médica)</li>
+                    </ul>
+                </div>
+
+                <div class="detalle rounded-3 mb-3 detalle_container">
+                    <p><span class="fw-bold">Cristales de material Orgánico y Policarbonato</span> cuya característica
+                        son
+                        la resistencia y calidad óptica, en especial para gafas de seguridad. Para trabajo en faenas o
+                        administrativo.</p>
+                </div>
+            </div>
+
+            <div class="d-xl-flex flex-xl-row gap-xl-5">
+                <div class="detalle rounded-3 mb-3 mb-xl-0 detalle_container">
+                    <p>Cristales de tipo:</p>
+                    <ul>
+                        <li><span class="fw-bold">Monofocales</span>, para una visión lejos o cerca.</li>
+                        <li><span class="fw-bold">Bifocales</span>, tienen ambas visiones, lejos y cerca en el mismo
+                            cristal.</li>
+                        <li><span class="fw-bold">Multifocales o Progresivos</span>, contienen todas las visiones:
+                            lejos,
+                            intermedia y cerca en el mismo cristal, y no se notan.</li>
+                        <li><span class="fw-bold">Sol óptico</span>, para gafas de seguridad.</li>
+                    </ul>
+                </div>
+
+                <div class="detalle_container">
+                    <div class="detalle rounded-3 mb-3">
+                        <p>Elaboramos todo tipo de cristales como:</p>
+                        <ul>
+                            <li><span class="fw-bold">Blancos, fotocromático, gris y café.</span></li>
+                            <li><span class="fw-bold">Teñidos de cristales para sol ópticos,</span> color a elección.
+                            </li>
+                            <li>Tratamientos <span class="fw-bold">hidrofóbicos.</span></li>
+                            <li>Capas <span class="fw-bold">Antirreflejos y Antirayas.</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="detalle_azul rounded-3">
+                        <p class="m-0 lh-sm">Además, <span class="fw-bold">contamos con lo último en el mercado: la
+                                línea
+                                blue
+                                filter</span> (filtro azul) para trabajo administrativos, ya que filtra todo tipo de luz
+                            artificial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- recomendaciones -->
+    <section id="recomendaciones" class="recomendaciones">
+        <p class="text-center recomendaciones_tittle px-5">RECOMENDACIONES DE USO POR COLOR DEL CRISTAL</p>
+
+        <div class="d-flex flex-column gap-3 flex-xl-row gap-xl-0"> <!-- bloque de 2 imagenes con texto -->
+            <div class="recomendaciones_container"> <!-- bloque de 1 imagen con texto -->
+                <img src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_recomendaciones_blanco.png"
+                    alt="recomendaciones cristal blanco">
+                <div class="px-5 recomendacion_text_bloque_azul_container"> <!-- bloque de rectangulo azul con texto -->
+                    <div class="rectangulo_azul mb-3"></div>
+                    <p class="recomendaciones_description lh-sm"><span class="fw-bold">Blanco:</span> Se recomienda para
+                        uso
+                        interior y exterior, en condiciones de luz normal, para áreas administrativas.</p>
+                </div>
+            </div>
+
+            <div class="recomendaciones_container"> <!-- bloque de 1 imagen con texto -->
+                <img src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_recomendaciones_fotocromatico.png"
+                    alt="recomendaciones lentes fotocromáticos">
+                <div class="px-5 recomendacion_text_bloque_azul_container"> <!-- bloque de rectangulo azul con texto -->
+                    <div class="rectangulo_azul mb-3"></div>
+                    <p class="recomendaciones_description lh-sm"><span class="fw-bold">Fotocromático:</span> Se
+                        recomienda
+                        para uso exterior, en faenas o manejo donde la luz del sol y deslumbramiento causen esfuerzo y
+                        fatiga ocular.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CRISTALES VIENEN CON -->
+    <section class="px-5 py-3 cristales">
+        <div> <!-- texto con bloque de rectangulos azules -->
+            <p class="text-center lh-sm cristales_tittle mb-4">TODOS NUESTROS CRISTALES VIENEN CON:</p>
+            <div> <!-- bloque de rectangulos azules -->
+                <div class="d-xl-flex gap-5 justify-content-xl-center mb-xl-4">
+                    <div class="cristales_detalle_azul rounded-3 mb-3 cristales_2block_container">
+                        <p class="m-0 lh-sm cristales_detalle"><span class="fw-bold">PROTECCION A ALTO IMPACTO</span>
+                            Reduce
+                            el riesgo de sufrir lesiones oculares o en el área de la visión.</p>
+                    </div>
+
+                    <div class="cristales_detalle_azul rounded-3 mb-3 cristales_2block_container">
+                        <p class="m-0 lh-sm cristales_detalle"><span class="fw-bold">PROTECCIÓN ULTRAVIOLETA</span>
+                            Impide
+                            el traspaso de más del 99% de la radiación ultravioleta.</p>
+                    </div>
+                </div>
+
+                <div class="d-xl-flex gap-5 justify-content-xl-center">
+                    <div class="cristales_detalle_azul rounded-3 mb-3 cristales_2block_container">
+                        <p class="m-0 lh-sm cristales_detalle"><span class="fw-bold">PROTECCIÓN ANTIRREFLEJO</span>
+                            Mejora
+                            la visión en ambientes de mucha luz artificial.</p>
+                    </div>
+
+                    <div class="cristales_detalle_azul rounded-3 mb-3 cristales_2block_container">
+                        <p class="m-0 lh-sm cristales_detalle"><span class="fw-bold">PROTECCIÓN ANTIRAYAS</span>
+                            Diseñada
+                            para extender la vida del lente en ambientes abrasivo.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- marcas -->
+    <section id="marcas" class="container-fluid text-white text-end marcas marcas_bolle">
+        <div class="marcas_text_container">
+            <img class="my-5" src="/assets/Logos_marcas_lentes/logo_bolle_blanco.svg" alt="bollé logo">
+            <p class="marcas_pretittle d-none d-xl-block">Gafas de seguridad</p>
+            <p class="marcas_tittle mb-3 mt-2 m-xl-0 mb-xl-5 text-uppercase">BOLLÉ SAFETY</p>
+            <p class="marcas_descripcion mb-0 mb-xl-5">Contamos con una de las mejores líneas de <span
+                    class="fw-bold">lentes con certificación de seguridad.</span></p>
+        </div>
+    </section>
+
+    <!-- galeria -->
+    <section class="galeria row g-0 mt-1 mb-2 d-xl-none">
+        <div class="col-8 h-100 pe-1">
+            <div class="galeria_img mb-1"
+                style="height: 58%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_8.jpg)">
+            </div>
+            <div class="galeria_img"
+                style="height: 42%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_11.jpg)">
+            </div>
+        </div>
+        <div class="col-4 h-100">
+            <div class="galeria_img mb-1"
+                style="height: 42%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_4.jpg)">
+            </div>
+            <div class="galeria_img"
+                style="height: 58%; background-position: left top; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_5.jpg)">
+            </div>
+        </div>
+    </section>
+
+    <div class="d-none d-xl-block galeria mt-2 mb-2">
+
+        <section class="row g-0 mb-2" style="height: 60%;">
+            <div class="col-4 pe-2 mb-2">
+                <div class="h-100">
+                    <div class="galeria_img mb-2"
+                        style="height: 50%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_4.jpg)">
+                    </div>
+                    <div class="galeria_img"
+                        style="height: 50%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_5.jpg)">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 h-100">
+                <div class="galeria_img"
+                    style="height: 100%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_8.jpg)">
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria row g-0" style="height: 40%;">
+            <div class="col-4 pe-2 mb-2">
+                <div class="row g-0 h-50 mb-2">
+                    <div class="col-6 pe-2">
+                        <div class="galeria_img"
+                            style="height: 100%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_10.jpg)">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="galeria_img"
+                            style="height: 100%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_9.jpg)">
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 h-50">
+                    <div class="col-6 pe-2">
+                        <div class="galeria_img"
+                            style="height: 100%; background-position: center 0%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_3.jpg)">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="galeria_img"
+                            style="height: 100%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_7.jpg)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 h-100">
+                <div class="row g-0 h-100">
+                    <div class="col-6 pe-2">
+                        <div class="galeria_img"
+                            style="height: 100%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_2.jpg)">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="galeria_img"
+                            style="height: 100%; background-position: center 20%; background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Bolle_6.jpg)">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <!-- muestras de lentes -->
+    <section class="d-xl-flex">
+        <div class="muestra_background_image d-flex align-items-center justify-content-end"
+            style="background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Lente_marca_Bolle.png)">
+            <img class="d-xl-none" src="/assets/Logos_marcas_lentes/Logo_bolle_color.svg" alt="marca bollé logo">
+        </div>
+        <div class="px-5 pt-4 pb-3 muestra_detalle">
+            <p>Material de celuloide procesado <span class="fw-bold">especial para alta exigencia</span>. Liviano,
+                flexible, de fácil adaptación. Con diseños exclusivos, de última moda.</p>
+            <img class="d-none d-xl-block py-5" src="/assets/Logos_marcas_lentes/Logo_bolle_color.svg"
+                alt="marca bollé logo" style="width: 70%;">
+            <p>BOLLE SAFETY es una gafa de seguridad con <span class="fw-bold">varillas ajustables para adaptarse al
+                    rostro</span> y lograr una mejor cobertura. Diseño clásico de la industria minera en todas sus
+                versiones óptica y neutra.</p>
+        </div>
+    </section>
+
+    <!-- modelo_macro_caracteristicas  -->
+    <section class="macro_caracteristicas p-4">
+        <p class="text-center text-white d-xl-none">MODELO <span class="fw-bold">MACRO</span> · CARACTERÍSTICAS</p>
+        <div class="d-xl-flex justify-content-xl-between gap-xl-5">
+            <div class="d-none d-xl-block">
+                <img class="logo_bolle_left_side" src="/assets/Logos_marcas_lentes/logo_bolle_blanco.svg"
+                    alt="marca bollé logo" style="width: 15vw;">
+                <p class="text-white modelo_macro_name">MODELO<br><span class="fw-bold">MACRO</span></p>
+                <p class="text-white modelo_macro_text_caracteristicas">CARACTERÍSTICAS</p>
+                <div class="d-flex justify-content-start">
+                    <button class="btn p-0 ">
+                        <a href="/files/Bolle_Gafa_Macro.pdf" target="_blank" rel="noopener noreferrer"><img
+                                class="ver_pdf_btn"
+                                src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_boton_ver_PDF_normal.png"
+                                alt="Ver pdf"></a>
+                    </button>
+                </div>
+            </div>
+            <div class="macro_img d-flex justify-content-center gap-2 gap-xl-4 mb-4">
+                <div>
+                    <!-- image trigger modal -->
+                    <img class="macro_img_mini" data-bs-toggle="modal" data-bs-target="#macro_1"
+                        src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Bolle_Gafa_Macro_1.png"
+                        alt="gafas seguridad macro bollé vista 1">
+                    <!-- Modal -->
+                    <div class="modal fade" id="macro_1" tabindex="-1" aria-labelledby="macro_1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal_macro_full">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">MODELO MACRO</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-fluid"
+                                        src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Bolle_Gafa_Macro_1_763x1080.png"
+                                        alt="gafas seguridad macro bollé vista 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- image trigger modal -->
+                    <img class="macro_img_mini" data-bs-toggle="modal" data-bs-target="#macro_2"
+                        src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Bolle_Gafa_Macro_2.png"
+                        alt="gafas seguridad macro bollé vista 2">
+                    <!-- Modal -->
+                    <div class="modal fade" id="macro_2" tabindex="-1" aria-labelledby="macro_2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal_macro_full">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">MODELO MACRO</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-fluid"
+                                        src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Bolle_Gafa_Macro_2_763x1080.png"
+                                        alt="gafas seguridad macro bollé vista 2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- button ver pdf -->
+        <div class="d-flex justify-content-center d-xl-none">
+            <button class="btn p-0 ">
+                <a href="/files/Bolle_Gafa_Macro.pdf" target="_blank" rel="noopener noreferrer"><img class="ver_pdf_btn"
+                        src="/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_boton_ver_PDF_normal.png"
+                        alt="Ver pdf"></a>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- activex falcon -->
+    <section class="activex_falcon d-xl-flex">
+        <div class="muestra_background_image_activex d-flex align-items-center justify-content-end"
+            style="background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Lente_marca_Activex.png)">
+            <img class="d-xl-none" src="/assets/Logos_marcas_lentes/Logo_Activex.svg" alt="marca bollé logo">
+        </div>
+        <div class="p-5 muestra_detalle_activex">
+            <p class="activex_falcon_tittle">GAFAS DE SEGURIDAD</p>
+            <p class="activex_falcon_tittle_2">ACTIVEX FALCON</p>
+            <img class="d-none d-xl-block logo_activex" src="/assets/Logos_marcas_lentes/Logo_Activex.svg"
+                alt="marca bollé logo" style="width: 30vw;">
+            <ul class="muestra_lista_activex">
+                <li>Material de celuloide procesado especial, con resistencia al impacto.</li>
+                <li><span class="fw-bold">Protección</span> contra golpes, sol, viento, polvo y proyección de partículas
+                    por el aire.</li>
+                <li>Las <span class="fw-bold">protecciones nasales suaves y flexibles</span> se ajustan a una amplia
+                    variedad de perfiles y minimizan el deslizamiento.</li>
+                <li><span class="fw-bold">Bordes de espuma acolchados en el marco </span>para un perfecto y suave ajuste
+                    al rostro.</li>
+                <li>Recomendado para <span class="fw-bold">industrias de la minería, construcción, manufactura en
+                        general, farmacéutica,</span> etc.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Quieres tener este tipo de seguridad -->
+    <section class="quieres_seguridad p-4">
+        <div class="d-xl-flex justify-content-center"> <!-- text -->
+            <div class="d-flex gap-3 gap-xl-5 mb-3 tittle_container">
+                <div class="rectangulo_blanco ms-2"></div> <!-- rectangulo blanco -->
+                <div class="d-xl-flex align-items-center">
+                    <p class="quieres_seguridad_tittle m-0">¿Quieres tener este tipo de seguridad?</p>
+                </div>
+
+            </div>
+            <p class="quieres_seguridad_detalle px-5">Nuestro objetivo es cubrir todas las necesidades ópticas y
+                oftalmológicas de nuestros clientes en su ambiente laboral, con productos certificados de alta calidad.
+                <span class="fw-bold">Cuéntanos sobre tu empresa, consulta por nuestros operativos y convenios.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- contacto -->
+    <section class="container-fluid text-white contacto p-5 pt-xl-4 pb-xl-1">
+        <div class="py-3 d-flex justify-content-center column-gap-xl-6rem">
+            <!-- info -->
+            <div>
+                <!-- logo, products, contact info-->
+                <div class="d-xl-flex column-gap-xl-6rem">
+                    <!-- logo and social media-->
+                    <div class="d-flex flex-row justify-content-center gap-4 mb-5 mb-xl-4">
+                        <!-- logo salud visual -->
+                        <img class="logo_salud_visual_footer" src="/assets/Logo_Salud_Visual_blanco.svg"
+                            alt="salud visual logo">
+                        <!-- social media -->
+                        <div class="d-block d-xl-none d-flex gap-3">
+                            <a href="https://www.instagram.com/salud_visual_optica_cc/" target="_blank"
+                                rel="noopener noreferrer"><img style="width: 50px;"
+                                    src="/assets/iconos/icono_IG_blanco.svg" alt="instagram"></a>
+                            <a href="https://www.facebook.com/profile.php?id=100064001472399" target="_blank"
+                                rel="noopener noreferrer"><img style="width: 50px;"
+                                    src="/assets/iconos/icono_Face_blanco.svg" alt="facebook"></a>
+                        </div>
+                    </div>
+
+                    <!-- products -->
+                    <div class="d-flex flex-column text-center text-xl-start gap-2">
+                        <span class="fw-bold">GAFAS DE SEGURIDAD</span>
+                        <span>OPERATIVOS ÓPTICOS</span>
+                        <span>LENTES ÓPTICOS</span>
+                    </div>
+
+                    <div class="d-block d-xl-none w-100 contacto_separador my-4"></div>
+
+                    <!-- contact info -->
+                    <div class="d-flex flex-column align-items-center align-items-xl-start gap-2">
+                        <p class="fw-bold">CONTÁCTANOS</p>
+                        <div class="d-inline-flex flex-column gap-1">
+                            <p class="d-inline-block "><img class="me-2 contacto_icons"
+                                    src="/assets/iconos/icono_whatsapp_blanco.svg" alt="what's app logo">(+56 · 9) 7 429
+                                8115</p>
+                            <p class="d-inline-block"><img class="me-2 contacto_icons"
+                                    src="/assets/iconos/icono_correo_lineal_blanco.svg"
+                                    alt="email icon">ventas@opticasaludvisual.cl</p>
+                        </div>
+                        <div class="d-xl-none py-3">
+                            <a href="https://wa.me/56974298115?text=Hola!,%20me%20gustaría%20saber%20más%20de%20sus%20productos"
+                                target="_blank" rel="noopener noreferrer"><img
+                                    src="/assets/iconos/icono_whatsapp_flotante.svg" alt="what's app"
+                                    style="width: 50px;"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-block w-100 contacto_separador mt-4 mt-xl-2 mb-3 "></div>
+
+                <!-- copy right-->
+                <div>
+                    <p class="text-center copyright_text">Copyright © 2025 · Todos los derechos reservados
+                        ÓPTICA SALUD VISUAL Limitada
+                    </p>
+                </div>
+            </div>
+
+            <!-- social media | visible solo en xl en adelante-->
+            <div class="d-none d-xl-block">
+                <div class="d-flex flex-column gap-2">
+                    <a href="https://www.instagram.com/salud_visual_optica_cc/" target="_blank"
+                        rel="noopener noreferrer"><img style="width: 40px;" src="/assets/iconos/icono_IG_blanco.svg"
+                            alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100064001472399" target="_blank"
+                        rel="noopener noreferrer"><img style="width: 40px;" src="/assets/iconos/icono_Face_blanco.svg"
+                            alt="facebook"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- objetos flotantes -->
+    <div class="d-none d-xl-block whatsapp_chat">
+        <a href="https://wa.me/56974298115?text=Hola!,%20me%20gustaría%20saber%20más%20de%20sus%20productos"
+            target="_blank" rel="noopener noreferrer"><img src="/assets/iconos/icono_whatsapp_flotante.svg"
+                alt="what's app" style="width: 80px;"></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
