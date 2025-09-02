@@ -2,19 +2,20 @@
 .productos {
     background-size: cover;
     background-position: center;
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding: calc(36 * var(--factor-resolution)) calc(48 * var(--factor-resolution));
 }
 
 .productos_tittle {
-    font-size: clamp(2rem, 3vw, 5rem);
+    font-size: calc(32 * var(--factor-resolution));
     font-weight: bold;
     line-height: 1.1;
+    margin-bottom: calc(8 * var(--factor-resolution));
 }
 
 .productos_descripcion {
-    font-size: clamp(1rem, 1.2vw, 3rem);
+    font-size: calc(16 * var(--factor-resolution));
     line-height: 1.5;
+    margin-bottom: calc(16 * var(--factor-resolution));
 }
 
 .productos_gafas_seguridad {
@@ -29,65 +30,92 @@
     background-image: url(/assets/Imagenes/HOME_chico/Home_chico_lentes_opticos.png);
 }
 
+.ver_mas_btn {
+    width: calc(120 * var(--factor-resolution));
+}
+
+
 /* características */
 .caracteristicas {
     background-color: #ffd85a;
     text-align: center;
     line-height: 1.2;
-    font-size: clamp(1rem, 1.2vw, 2rem);
-}
+    padding: calc(48 * var(--factor-resolution));
+    font-size: calc(16 * var(--factor-resolution));
 
-.caracteristicas img {
-    width: 5rem;
-    height: 5rem;
-    color: #3a3a3a;
-}
+    .d-flex {
+        margin: calc(16 * var(--factor-resolution)) 0;
+        row-gap: calc(48 * var(--factor-resolution));
+    }
 
-.caracteristicas p {
-    margin: 0;
+    img {
+        width: calc(80 * var(--factor-resolution));
+        height: calc(80 * var(--factor-resolution));
+        margin-bottom: calc(24 * var(--factor-resolution));
+        color: #3a3a3a;
+    }
+
+    p {
+        margin: 0;
+    }
 }
 
 /* Clientes */
 
 .clientes {
     width: 100%;
-}
+    padding: calc(48 * var(--factor-resolution)) 0;
 
-.clientes img {
-    width: 100%;
+    .tittle {
+        padding-bottom: calc(16 * var(--factor-resolution));
+        font-size: calc(24.8 * var(--factor-resolution));
+    }
+
+    img {
+        width: 100%;
+        padding: calc(16 * var(--factor-resolution));
+    }
 }
 
 /* beneficios */
-.beneficios img {
-    width: 100%;
-    max-height: 550px;
-    object-fit: cover;
-}
+.beneficios {
+    img {
+        width: 100%;
+        height: calc(235 * var(--factor-resolution));
+        object-fit: cover;
+    }
 
-.beneficios p {
-    font-size: clamp(1rem, 1vw, 2rem);
-}
+    p {
+        font-size: calc(16 * var(--factor-resolution));
+    }
 
-.beneficios .fw-bold {
-    font-size: clamp(1.25rem, 1.5vw, 3rem);
+    .tittle {
+        font-weight: bold;
+        font-size: calc(20 * var(--factor-resolution));
+    }
+
+    .right_text {
+        padding-left: calc(48 * var(--factor-resolution));
+        width: 80%;
+    }
+
+    .left_text {
+        padding-right: calc(48 * var(--factor-resolution));
+        width: 80%;
+    }
+
+    .d-flex {
+        padding: calc(48 * var(--factor-resolution)) 0;
+    }
 }
 
 .yellow-rectangle {
     background-color: #ffd85a;
-    width: 40px;
+    width: calc(40 * var(--factor-resolution));
 }
 
 
 @media (min-width: 1200px) {
-
-    /* caracteristicas */
-
-    .caracteristicas .flex-column {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        column-gap: 8rem;
-    }
 
     /* productos */
 
@@ -104,13 +132,89 @@
     }
 
     .ver_mas_btn {
-        width: 12rem;
+        width: calc(192 * var(--factor-resolution));
     }
 
     .productos {
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        padding: calc(32.4 * var(--factor-resolution)) calc(48 * var(--factor-resolution));
+
+        .text_container {
+            margin: calc(48 * var(--factor-resolution));
+            padding: 0 calc(48 * var(--factor-resolution));
+        }
     }
 
+    .productos_tittle {
+        font-size: calc(57.5 * var(--factor-resolution));
+        margin-bottom: calc(8 * var(--factor-resolution));
+    }
 
+    .productos_descripcion {
+        font-size: calc(22.7 * var(--factor-resolution));
+        margin-bottom: calc(48 * var(--factor-resolution));
+    }
+
+    /* caracteristicas */
+
+    .caracteristicas {
+        padding: calc(48 * var(--factor-resolution));
+        font-size: calc(23 * var(--factor-resolution));
+
+        .d-flex {
+            margin: calc(16 * var(--factor-resolution)) 0;
+            padding: calc(48 * var(--factor-resolution)) 0;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            column-gap: calc(128 * var(--factor-resolution));
+        }
+    }
+
+    /* clientes */
+    .clientes {
+        padding: calc(48 * var(--factor-resolution));
+
+        .tittle {
+            padding-top: calc(48 * var(--factor-resolution));
+            font-size: calc(32 * var(--factor-resolution));
+        }
+
+        img {
+            width: 100%;
+            padding: calc(16 * var(--factor-resolution));
+        }
+
+        
+    }
+
+    /* beneficios */
+    .beneficios {
+        img {
+            height: calc(550 * var(--factor-resolution));
+        }
+
+        p {
+            font-size: calc(20 * var(--factor-resolution));
+        }
+
+        .tittle {
+            font-size: calc(29 * var(--factor-resolution));
+        }
+
+        .right_text {
+            padding-left: calc(48 * var(--factor-resolution));
+        }
+
+        .left_text {
+            padding-right: calc(48 * var(--factor-resolution));
+        }
+
+        .d-flex {
+            padding: calc(48 * var(--factor-resolution)) 0;
+        }
+    }
+
+    .yellow-rectangle {
+        width: calc(40 * var(--factor-resolution));
+    }
 }

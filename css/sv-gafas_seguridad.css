@@ -4,9 +4,11 @@ body {
 
 /* banner gafas seguridad*/
 .banner {
-
-    padding-top: 4vh;
-    padding-bottom: 4vh;
+    background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_movil/Seguridad_movil_Hombre_casco.png);
+    background-size: cover;
+    background-position: center;
+    padding: 9.1vw 12vw;
+    text-align: right;
 }
 
 .banner_text_container {
@@ -15,60 +17,67 @@ body {
 }
 
 .banner_tittle {
-    font-size: clamp(0.5rem, 6vw, 1.8rem);
+    font-size: 6vw;
     font-weight: bold;
-    line-height: 1.3;
+    line-height: 8vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
 }
 
 .banner_descripcion {
-    font-size: clamp(0.5rem, 4vw, 1.5rem);
-    line-height: 1.5;
+    font-size: 4vw;
+    line-height: 6vw;
 }
 
-.banner_gafas_seguridad {
-    background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_movil/Seguridad_movil_Hombre_casco.png);
-    background-size: cover;
-    background-position: center;
-}
 
 /* laboratorios */
 .laboratorios {
     background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_movil/Seguridad_movil_fondo_laboratorios.png);
     background-size: cover;
     background-position: center;
+    padding: 12vw;
 }
 
 .detalle {
     background: rgba(34, 131, 208, 0.12);
-    font-size: 0.8rem;
-    padding: 1.5rem;
+    font-size: 3.2vw;
+    padding: 6vw;
 }
 
 .detalle_azul {
     background-color: #2383d0;
     color: white;
-    font-size: 0.9rem;
-    padding: 1.5rem;
+    font-size: 3.6vw;
+    padding: 6vw;
 }
 
 .lab_icon {
-    width: 60px;
+    width: 15vw;
 }
 
 .lab_tittle {
     font-weight: 800;
-    font-size: 1.1rem;
+    font-size: 4.4vw;
 }
 
 .laboratorios ul {
     margin-bottom: 0;
-    padding-left: 1rem;
+    padding-left: 4vw;
+}
+
+.lab_description_phone_only {
+    font-size: 4vw;
+    margin-bottom: 6vw;
+
 }
 
 /* recomendaciones */
 
 .recomendaciones_tittle {
     font-weight: 800;
+    padding: 0 12vw;
+    margin-bottom: 4vw;
+    font-size: 4vw;
 }
 
 .recomendaciones img {
@@ -79,33 +88,44 @@ body {
 
 .rectangulo_azul {
     background-color: #2383d0;
-    height: 10px;
+    height: 2.5vw;
+    margin-bottom: 0.83vw;
     width: 35%;
 }
 
 .recomendaciones_description {
     font-weight: 500;
+    font-size: 4vw;
+}
+
+.recomendacion_text_bloque_azul_container {
+    padding: 0 12vw;
 }
 
 /* cristales vienen con */
 
+.cristales {
+    padding: 12vw 6vw;
+}
+
 .cristales_tittle {
     color: #2383d0;
     font-weight: 800;
-    font-size: 1.1rem;
-}
-
-.cristales_detalle {
-    font-size: 0.9rem;
-    text-align: center;
-    font-weight: 500;
+    font-size: 4.4vw;
+    margin-bottom: 6vw;
 }
 
 .cristales_detalle_azul {
     background-color: #2383d0;
     color: white;
-    font-size: 0.9rem;
-    padding: 1.5rem 1rem;
+    font-size: 3.6vw;
+    padding: 6vw 4vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+.blue_block_container {
+    gap: 12vw;
 }
 
 /* marcas */
@@ -151,12 +171,12 @@ body {
     background-size: cover;
 }
 
-/* muestra lentes*/
+/* muestra lentes bolle*/
 
 .muestra_background_image {
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 104vw;
 }
 
 .muestra_background_image img {
@@ -166,11 +186,14 @@ body {
 
 .muestra_detalle {
     font-weight: 500;
+    font-size: 4vw;
+    padding: 6vw 12vw;
 }
 
 /* modelo_macro_caracteristicas */
 .macro_caracteristicas {
     background-color: #3a3a3a;
+    padding: 6vw;
 }
 
 .macro_img_mini {
@@ -181,19 +204,19 @@ body {
     --bs-modal-width: 60vh;
 }
 
-/* activex_falcon */
-.activex_falcon_tittle {
-    font-size: 1.25rem;
+.modelo_macro_name_phone_view {
+    font-size: 4vw;
 }
 
+/* activex_falcon */
 .activex_falcon ul {
-    padding-left: 1rem;
+    padding-left: 4vw;
 }
 
 .muestra_background_image_activex {
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 125vw;
 }
 
 .muestra_background_image_activex img {
@@ -202,45 +225,55 @@ body {
 }
 
 .activex_falcon_tittle {
-    font-size: 1.25rem;
+    font-size: 5vw;
     font-weight: 600;
     margin: 0;
 }
 
 .activex_falcon_tittle_2 {
-    font-size: 1.5rem;
-    margin: 0 0 1rem 0;
-    line-height: 1.5rem;
+    font-size: 6vw;
+    margin-bottom: 4vw;
+    line-height: 6vw;
     font-weight: 800;
+}
+
+.muestra_detalle_activex {
+    padding: 6vw 12vw;
+}
+
+.muestra_lista_activex {
+    font-size: 4vw;
 }
 
 /* quieres_seguridad */
 .quieres_seguridad {
     background-color: #ffd85a;
     color: black;
-
+    padding: 8vw;
 }
 
 .tittle_container {
     width: 75vw;
+    gap: 4vw;
+    margin-bottom: 4vw;
 }
 
 .quieres_seguridad_tittle {
-    font-size: 1.4rem;
-    font-weight: 800;
-    line-height: 2rem;
+    font-size: 5.6vw;
+    font-weight: 600;
+    line-height: 8vw;
 }
 
 .quieres_seguridad_detalle {
     font-weight: 500;
-    line-height: 1.2rem;
-    font-size: 0.8rem;
+    line-height: 4.8vw;
+    font-size: 3.2vw;
+    margin-left: 8vw;
 }
 
 .rectangulo_blanco {
     background-color: white;
-    width: 20px;
-    min-width: 20px;
+    width: 7vw;
 }
 
 @media (min-width: 1200px) {
@@ -248,13 +281,10 @@ body {
     /* banner */
 
     .banner {
-        padding: 8rem 3rem 4rem 3rem;
-    }
-
-    .banner_gafas_seguridad {
         background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Seguridad_Hombre_casco.png);
         background-size: cover;
         background-position: center;
+        padding: 6.6vw 0 3.3vw 0;
     }
 
     .banner_text_container {
@@ -264,9 +294,12 @@ body {
     }
 
     .banner_tittle {
-        font-size: 3rem;
+        font-size: calc(50 * var(--factor-resolution));
+        ;
         font-weight: 800;
-        line-height: 1.3;
+        line-height: 3.25vw;
+        margin-top: 0.4vw;
+        margin-bottom: 0.8vw;
     }
 
     .banner_text_sub_container {
@@ -274,6 +307,7 @@ body {
     }
 
     .banner_descripcion {
+        font-size: calc(25 * var(--factor-resolution));
         line-height: 1.3;
         font-weight: 500;
     }
@@ -281,7 +315,7 @@ body {
     /* laboratorios */
 
     .laboratorios {
-        padding: 3rem 12rem 3rem 12rem !important;
+        padding: 2.5vw 10vw;
     }
 
     .lab_icon {
@@ -290,15 +324,16 @@ body {
 
     .lab_tittle {
         font-weight: 800;
-        font-size: 3rem;
+        font-size: calc(35 * var(--factor-resolution));
     }
 
     .lab_description {
-        font-size: 1.7rem;
+        font-size: calc(25 * var(--factor-resolution));
+        ;
     }
 
     .lab_text_container {
-        width: 60vw;
+        width: calc(986 * var(--factor-resolution));
     }
 
     .laboratorios_logos {
@@ -306,17 +341,17 @@ body {
     }
 
     .detalle_container {
-        width: 50%;
+        width: calc(673 * var(--factor-resolution));
     }
 
     .detalle {
-        font-size: 1.75rem;
-        padding: 3rem 4rem 3rem 4rem;
+        font-size: calc(20 * var(--factor-resolution));
+        padding: calc(38 * var(--factor-resolution)) calc(56 * var(--factor-resolution));
     }
 
     .detalle_azul {
-        font-size: 1.75rem;
-        padding: 1.5rem 4rem 1.5rem 4rem;
+        font-size: calc(20 * var(--factor-resolution));
+        padding: 1.25vw 3.33vw;
     }
 
     .laboratorios ul {
@@ -324,10 +359,10 @@ body {
     }
 
     /* recomendaciones */
-
     .recomendaciones_tittle {
-        font-size: 3rem;
-        margin: 4rem 0 4rem 0;
+        font-size: calc(35 * var(--factor-resolution));
+        padding: 0;
+        margin: 3.3vw 0;
     }
 
     .recomendaciones_container {
@@ -335,25 +370,30 @@ body {
     }
 
     .recomendaciones_description {
-        font-size: 1.5rem;
+        font-size: 1.25vw;
     }
 
     .recomendacion_text_bloque_azul_container {
-        margin: 0 8rem 0 8rem;
+        margin: 0 6.66vw;
+        padding: 0 2.5vw;
+    }
+
+    .rectangulo_azul {
+        background-color: #2383d0;
+        height: 0.52vw;
+        margin-bottom: 0.83vw;
+        width: 35%;
     }
 
     /*cristales*/
     .cristales {
-        padding: 5rem 10rem !important;
+        padding: 4.16vw 8.33vw !important;
     }
 
     .cristales_tittle {
-        font-size: 2.5rem;
-        margin-bottom: 3rem !important;
-    }
-
-    .cristales_detalle {
-        font-size: 1.5rem;
+        font-size: calc(35 * var(--factor-resolution));
+        ;
+        margin-bottom: 2.5vw !important;
     }
 
     .cristales_2block_container {
@@ -363,14 +403,19 @@ body {
     .cristales_detalle_azul {
         background-color: #2383d0;
         color: white;
-        font-size: 0.9rem;
-        padding: 3rem;
+        font-size: calc(20 * var(--factor-resolution));
+        padding: 2.5vw;
+    }
+
+    .blue_block_container {
+        gap: 2.5vw;
+        margin-bottom: 1.25vw;
     }
 
     /* marcas */
 
     .marcas {
-        padding: 5vw 12vh 3vw 0;
+        padding: 5vw 8vw 3vw 0;
     }
 
     .marcas_bolle {
@@ -388,17 +433,20 @@ body {
     }
 
     .marcas_pretittle {
-        font-size: 3.5rem;
+        font-size: calc(50 * var(--factor-resolution));
+        ;
         font-weight: 500;
         margin: 0;
     }
 
     .marcas_tittle {
-        font-size: 4rem;
+        font-size: calc(50 * var(--factor-resolution));
+        ;
     }
 
     .marcas_descripcion {
-        font-size: 1.75rem;
+        font-size: calc(25 * var(--factor-resolution));
+        ;
     }
 
     /* galeria */
@@ -407,15 +455,24 @@ body {
     }
 
     /* muestras marcas bolle */
+
+    .muestra_bolle_container {
+        height: calc(751 * var(--factor-resolution));
+    }
+
     .muestra_background_image {
-        height: 900px;
+        height: 100%;
         width: 50%;
     }
 
     .muestra_detalle {
-        font-size: 1.7rem;
-        padding: 8rem !important;
+        font-size: calc(20 * var(--factor-resolution));
+        padding: 6.6VW !important;
         width: 50%;
+
+        img {
+            width: calc(468 * var(--factor-resolution))
+        }
     }
 
     /* macro_caracteristicas */
@@ -433,65 +490,80 @@ body {
     }
 
     .modelo_macro_name {
-        font-size: 3rem;
-        margin-bottom: 5rem;
+        font-size: 2.5vw;
+        margin-bottom: 4.1vw;
     }
 
     .modelo_macro_text_caracteristicas {
-        font-size: 2rem;
+        font-size: 1.6vw;
     }
 
     .logo_bolle_left_side {
-        margin-bottom: 20rem;
+        margin-bottom: 16.6vw;
     }
 
     /* activex */
 
+    .activex_falcon {
+        height: calc(753 * var(--factor-resolution));
+        ul {
+            padding-left: 0;
+        }
+    }
+
+    .muestra_background_image_activex {
+        width: 50%;
+        height: 100%;
+    }
+
+    .muestra_detalle_activex {
+        padding: calc(70 * var(--factor-resolution)) 5.83vw 4.16vw 5.83vw !important;
+        width: 50%;
+    }
+
     .activex_falcon_tittle {
-        font-size: 3rem;
+        font-size: calc(50 * var(--factor-resolution));
         font-weight: 600;
         margin: 0;
     }
 
     .activex_falcon_tittle_2 {
-        font-size: 4rem;
+        font-size: calc(50 * var(--factor-resolution));
         margin: 0;
-        line-height: 4rem;
+        line-height: 3.33vw;
         font-weight: 800;
     }
 
     .logo_activex {
-        margin: 6rem 0 1rem 0;
-    }
-
-    .muestra_detalle_activex {
-        padding: 7rem 7rem 5rem 7rem !important;
-        width: 50%;
+        margin: calc(60 * var(--factor-resolution));
     }
 
     .muestra_lista_activex {
-        font-size: 1.7rem;
-    }
-
-    .muestra_background_image_activex {
-        width: 50%;
-        background-position: center;
-        background-size: cover;
-        height: auto;
+        font-size: calc(20 * var(--factor-resolution));
     }
 
     /* quieres seguridad */
     .quieres_seguridad {
-        padding: 7rem 8rem !important;
+        padding: 5.83vw 6.66vw !important;
+    }
+
+    .tittle_container {
+        gap: 2.5vw;
+        margin-bottom: 0.8vw;
     }
 
     .quieres_seguridad_tittle {
-        font-size: 2.2rem;
-        line-height: 3rem;
+        font-size: calc(30 * var(--factor-resolution));
+        line-height: 2vw;
     }
 
     .quieres_seguridad_detalle {
-        font-size: 1.7rem;
-        line-height: 2rem;
+        font-size: calc(20 * var(--factor-resolution));
+        line-height: 1.66vw;
+        margin-left: calc(84 * var(--factor-resolution));
+    }
+
+    .rectangulo_blanco {
+        width: 1.5vw;
     }
 }
