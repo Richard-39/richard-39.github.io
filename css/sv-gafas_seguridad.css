@@ -221,6 +221,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 125vw;
+    background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_movil/Seguridad_movil_lentes_Activex.png)
 }
 
 .muestra_background_image_activex img {
@@ -247,6 +248,10 @@ body {
 
 .muestra_lista_activex {
     font-size: 4vw;
+}
+
+.muestra_background_image {
+    background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_movil/Seguridad_movil_lentes_Bolle.png);
 }
 
 /* quieres operativo */
@@ -526,6 +531,7 @@ body {
     .muestra_background_image_activex {
         width: 50%;
         height: 100%;
+        background-image: url(/assets/Imagenes/GAFAS_SEGURIDAD_escritorio/Lente_marca_Activex.png)
     }
 
     .muestra_detalle_activex {
