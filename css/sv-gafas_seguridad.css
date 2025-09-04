@@ -208,6 +208,10 @@ body {
     font-size: 4vw;
 }
 
+.ver_pdf_btn {
+    width: calc(130 * var(--factor-resolution));
+}
+
 /* activex_falcon */
 .activex_falcon ul {
     padding-left: 4vw;
@@ -245,35 +249,42 @@ body {
     font-size: 4vw;
 }
 
-/* quieres_seguridad */
-.quieres_seguridad {
-    background-color: #ffd85a;
-    color: black;
-    padding: 8vw;
-}
+/* quieres operativo */
 
-.tittle_container {
-    width: 75vw;
-    gap: 4vw;
-    margin-bottom: 4vw;
-}
+.quieres_operativo {
+    background-color: #FFD85A;
+    padding:
+        calc(50 * var(--factor-resolution)) calc(35 * var(--factor-resolution)) calc(71 * var(--factor-resolution)) calc(34 * var(--factor-resolution));
+    color: #3A3A3A;
 
-.quieres_seguridad_tittle {
-    font-size: 5.6vw;
-    font-weight: 600;
-    line-height: 8vw;
-}
+    gap: calc(84.8 * var(--factor-resolution));
 
-.quieres_seguridad_detalle {
-    font-weight: 500;
-    line-height: 4.8vw;
-    font-size: 3.2vw;
-    margin-left: 8vw;
-}
+    .tittle {
+        font-size: calc(20 * var(--factor-resolution));
+        font-weight: 800;
+        width: calc(316 * var(--factor-resolution));
+        margin: 0;
+        line-height: calc(28 * var(--factor-resolution));
+    }
 
-.rectangulo_blanco {
-    background-color: white;
-    width: 7vw;
+    .description {
+        font-size: calc(16 * var(--factor-resolution));
+        font-weight: 500;
+        width: calc(316 * var(--factor-resolution));
+        margin: 0 0 0 calc(30 * var(--factor-resolution));
+        line-height: calc(27 * var(--factor-resolution));
+    }
+
+    .white_rectangle {
+        width: calc(13 * var(--factor-resolution));
+        height: calc(80 * var(--factor-resolution));
+        background-color: #FFFFFF;
+    }
+
+    .rectangle_text {
+        gap: calc(17 * var(--factor-resolution));
+        margin-bottom: calc(17 * var(--factor-resolution));
+    }
 }
 
 @media (min-width: 1200px) {
@@ -505,7 +516,8 @@ body {
     /* activex */
 
     .activex_falcon {
-        height: calc(753 * var(--factor-resolution));
+        height: calc(885 * var(--factor-resolution));
+
         ul {
             padding-left: 0;
         }
@@ -535,35 +547,49 @@ body {
     }
 
     .logo_activex {
-        margin: calc(60 * var(--factor-resolution));
+        margin: calc(60 * var(--factor-resolution)) 0;
     }
 
     .muestra_lista_activex {
         font-size: calc(20 * var(--factor-resolution));
+        width: calc(600 * var(--factor-resolution));
     }
 
-    /* quieres seguridad */
-    .quieres_seguridad {
-        padding: 5.83vw 6.66vw !important;
-    }
+    /* quiere op*/
 
-    .tittle_container {
-        gap: 2.5vw;
-        margin-bottom: 0.8vw;
-    }
+    .quieres_operativo {
+        background-color: #FFD85A;
+        padding:
+            calc(101 * var(--factor-resolution)) calc(294 * var(--factor-resolution)) calc(107 * var(--factor-resolution)) calc(390 * var(--factor-resolution));
 
-    .quieres_seguridad_tittle {
-        font-size: calc(30 * var(--factor-resolution));
-        line-height: 2vw;
-    }
+        gap: calc(84.8 * var(--factor-resolution));
 
-    .quieres_seguridad_detalle {
-        font-size: calc(20 * var(--factor-resolution));
-        line-height: 1.66vw;
-        margin-left: calc(84 * var(--factor-resolution));
-    }
+        .tittle {
+            font-size: calc(30 * var(--factor-resolution));
+            font-weight: 600;
+            width: calc(370 * var(--factor-resolution));
+            margin: 0;
+            line-height: calc(35 * var(--factor-resolution));
+            align-content: center;
+        }
 
-    .rectangulo_blanco {
-        width: 1.5vw;
+        .description {
+            font-size: calc(20 * var(--factor-resolution));
+            font-weight: 500;
+            width: calc(727 * var(--factor-resolution));
+            margin: 0;
+            line-height: calc(27 * var(--factor-resolution));
+        }
+
+        .white_rectangle {
+            width: calc(17 * var(--factor-resolution));
+            height: calc(105 * var(--factor-resolution));
+            background-color: #FFFFFF;
+        }
+
+        .rectangle_text {
+            gap: calc(47.2 * var(--factor-resolution));
+            margin-bottom: 0;
+        }
     }
 }
